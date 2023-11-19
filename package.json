@@ -1,0 +1,14 @@
+{
+  "name": "name of project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:tailwind": "npx tailwindcss -i src/style.css -o public/style.css --watch"
+  },
+  "author": "hamidreza shooshtari",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
